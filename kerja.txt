@@ -1,0 +1,7 @@
+$nomention
+
+$globalCooldown[3s;**`Cooldown 3 detik bang, Anak sabar disayang tuhan`**]
+
+$setVar[uang;$sum[$getVar[uang;$authorID];$random[10;50]];$authorID]
+
+<@$authorID> kamu telah bekerja dan mendapatkan `$$random[10;50]`
